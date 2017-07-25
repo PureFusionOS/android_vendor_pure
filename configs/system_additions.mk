@@ -41,6 +41,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # PureFusionOS OTA
 $(call inherit-product-if-exists, vendor/pure/configs/ota.mk)
 
+# Needs for MTP Dirty Hack
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
+
 # Allow recording ADB logcat during boot phase
 PRODUCT_PROPERTY_OVERRIDES += \
 		 ro.adb.secure=0 \
