@@ -76,6 +76,12 @@ PRODUCT_COPY_FILES += \
      vendor/pure/prebuilt/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
      vendor/pure/prebuilt/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml
 
+
+# Themes
+PRODUCT_PACKAGES += \
+    PixelTheme \
+    Stock
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \
 
