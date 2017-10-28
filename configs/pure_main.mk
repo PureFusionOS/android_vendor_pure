@@ -47,6 +47,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.storage_manager.enabled=true
 
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
 # MusicFX advanced effects
 #TARGET_NO_DSPMANAGER := true
 ifneq ($(TARGET_NO_DSPMANAGER), true)
