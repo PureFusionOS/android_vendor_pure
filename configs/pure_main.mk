@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
     Gallery2 \
     WallpaperPicker
 
+# Extra packages
+PRODUCT_PACKAGES += \
+    OmniJaws
+
 
 # Custom Packages
 PRODUCT_PACKAGES += \
