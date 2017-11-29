@@ -34,7 +34,8 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    OmniJaws
+    OmniJaws \
+    MatLog
 
 
 # Custom Packages
