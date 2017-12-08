@@ -28,6 +28,8 @@ PRODUCT_PACKAGES += \
     Calculator \
     Calendar \
     DeskClock \
+    LiveWallpapers \
+    LiveWallpapersPicker \
     Turbo \
     LatinIME \
     Gallery2 \
