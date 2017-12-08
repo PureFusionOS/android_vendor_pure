@@ -24,8 +24,9 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Main Required Packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    Messaging \
+    messaging \
     Calculator \
+    Calendar \
     DeskClock \
     Turbo \
     LatinIME \
