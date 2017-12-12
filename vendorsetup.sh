@@ -16,3 +16,6 @@ add_lunch_combo gemini-eng
 add_lunch_combo mido-userdebug
 add_lunch_combo mido-user
 add_lunch_combo mido-eng
+add_lunch_combo z2_plus-userdebug
+add_lunch_combo z2_plus-user
+add_lunch_combo z2_plus-eng
