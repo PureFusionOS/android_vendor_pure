@@ -27,8 +27,14 @@ PRODUCT_COPY_FILES += \
     vendor/pure/prebuilt/bin/sysinit:system/bin/sysinit
 
 # Pure-specific init file
-PRODUCT_COPY_FILES += \
-    vendor/pure/prebuilt/etc/init.fusion.rc:root/init.fusion.rc
+PRODUCT_PACKAGES += \
+    init.fusion.rc
+
+# SELinux Permissive Workaround for SafetyNet
+ifeq ($(TARGET_TRICK_SELINUX),true)
+PRODUCT_PACKAGES += \
+    init.sehide.rc
+endif
 
 # Security Enhanced Linux
 PRODUCT_PROPERTY_OVERRIDES += \
