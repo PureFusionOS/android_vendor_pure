@@ -12,9 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
-# PureFusionTC Clang NFO:
-PUREFUSIONTC_CLANG := 6.0
+# PureFusionLLVM Clang INFO:
+PUREFUSIONLLVM := 6.0
 
 # Pure Fusion versioning
 ifndef PURE_BUILD_TYPE
