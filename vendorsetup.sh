@@ -7,3 +7,6 @@ add_lunch_combo gemini-eng
 add_lunch_combo marlin-userdebug
 add_lunch_combo marlin-user
 add_lunch_combo marlin-eng
+add_lunch_combo h872-userdebug
+add_lunch_combo h872-user
+add_lunch_combo h872-eng
